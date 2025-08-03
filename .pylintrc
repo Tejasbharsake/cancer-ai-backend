@@ -1,0 +1,38 @@
+[MASTER]
+# Ignore common directories
+ignore=venv,env,.env,node_modules,__pycache__,.git
+
+[MESSAGES CONTROL]
+# Disable specific warnings that are common in data science/API projects
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    too-few-public-methods,
+    import-error,
+    no-member,
+    unused-import,
+    broad-except,
+    line-too-long,
+    invalid-name,
+    too-many-locals,
+    too-many-arguments,
+    too-many-branches,
+    too-many-statements,
+    duplicate-code
+
+[FORMAT]
+# Maximum number of characters on a single line
+max-line-length=120
+
+[DESIGN]
+# Maximum number of arguments for function / method
+max-args=10
+# Maximum number of locals for function / method body
+max-locals=20
+# Maximum number of return / yield for function / method body
+max-returns=10
+# Maximum number of branch for function / method body
+max-branches=15
+# Maximum number of statements in function / method body
+max-statements=60
