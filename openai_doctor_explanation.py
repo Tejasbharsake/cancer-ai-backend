@@ -302,8 +302,8 @@ def generate_explanation_for_prediction(
         }
 
 
-# Example usage and testing
-if __name__ == "__main__":
+def main():
+    """Main function for testing"""
     # Example patient data
     sample_patient = {
         'name': 'John Smith',
@@ -356,3 +356,7 @@ if __name__ == "__main__":
         print(explanation['next_steps'])
         print(f"\n🎯 CONFIDENCE INTERPRETATION:")
         print(explanation['confidence_interpretation'])
+
+# Example usage and testing
+if __name__ == "__main__":
+    main()
