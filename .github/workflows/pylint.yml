@@ -18,4 +18,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run Pylint
       run: |
-        pylint --rcfile=.pylintrc main.py api_server.py app.py || true
+        pylint --rcfile=.pylintrc main.py api_server.py app.py --exit-zero

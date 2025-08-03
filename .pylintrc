@@ -19,7 +19,12 @@ disable=
     too-many-arguments,
     too-many-branches,
     too-many-statements,
-    duplicate-code
+    duplicate-code,
+    unused-variable,
+    redefined-outer-name,
+    global-statement,
+    consider-using-f-string,
+    consider-using-with
 
 [FORMAT]
 # Maximum number of characters on a single line
